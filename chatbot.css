@@ -1,0 +1,68 @@
+/* Chatbot Button */
+#chatbot-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #003366; /* Industrial Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#chatbot-btn:hover {
+    background-color: #002244;
+}
+
+/* Chatbot Window */
+#chatbot {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Header */
+#chatbot-header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Close Button */
+#close-chat {
+    cursor: pointer;
+}
+
+/* Chat Body */
+#chatbot-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+/* Input Field */
+#chatbot-input {
+    border: none;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+}
